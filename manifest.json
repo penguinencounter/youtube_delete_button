@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Delete Button",
+    "version": "1.0",
+    "description": "Restores old delete button for the playlist sidebar.",
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/watch*"],
+        "js": ["button.js"]
+      }
+    ]  
+}
