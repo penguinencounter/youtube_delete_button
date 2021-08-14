@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Youtube Delete Button",
     "version": "1.0",
-    "description": "Restores old delete button for the playlist sidebar.",
+    "description": "Youtube changed the on-video playlist panel to require opening a menu to delete items. This extension hides the menu and provides a 1-click delete button with the same functionality.",
     "icons": {
       "48": "icons/delete-48.png"
     },
